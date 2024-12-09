@@ -1,10 +1,19 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
-function Button({ variant, children }) {
+function Button({ variant, children, to }) {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    if (to) navigate(to); // Programmatically navigate to the specified route
+  };
+
   if (variant === "button") {
     return (
-      <button className="bg-yellow-400 uppercase font-semibold text-stone-800 py-2 px-11 inline-block transition-colors duration-300 hover:bg-yellow-300 focus:bg-yellow-300 focus:outline-none focus:ring focus:ring-yellow-300 focus:ring-offset-2 rounded-full">
+      <button
+        onClick={handleClick} // Attach the click handler
+        className="bg-yellow-400 uppercase font-semibold text-stone-800 py-2 px-11 inline-block transition-colors duration-300 hover:bg-yellow-300 focus:bg-yellow-300 focus:outline-none focus:ring focus:ring-yellow-300 focus:ring-offset-2 rounded-full"
+      >
         {children}
       </button>
     );

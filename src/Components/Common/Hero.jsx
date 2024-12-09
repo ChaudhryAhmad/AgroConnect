@@ -9,6 +9,7 @@ function Hero({children}) {
         src={HeroRectangle} 
         alt="Mission Background" 
         className="w-full h-full object-cover" 
+        loading='lazy'
       />
 
       {/* Overlay Text */}

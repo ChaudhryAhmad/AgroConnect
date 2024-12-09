@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaUser, FaShoppingCart, FaBars, FaTimes } from 'react-icons/fa';
 import { Link, NavLink } from 'react-router-dom';
 import Logo from "../../assets/Logo.png";
+import Button from './Button';
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -124,9 +125,9 @@ function Header() {
           {/* Icons */}
           <div className="flex items-center space-x-4">
             
-            <NavLink to="/login" className="text-white hover:text-yellow-400">
-              <FaUser className="h-6 w-6" />
-            </NavLink>
+            <Button to="/login" variant="button" className="text-white hover:text-yellow-400">
+              Join Now
+            </Button>
           </div>
         </div>
       </div>

@@ -51,8 +51,8 @@ function Footer() {
                 <ul className="space-y-2">
                   <li><Link to="/" className="hover:underline">Home</Link></li>
                   <li><Link to="/about" className="hover:underline">About</Link></li>
-                  <li><Link to="/products" className="hover:underline">Products</Link></li>
-                  <li><Link to="/services" className="hover:underline">Services</Link></li>
+                  <li><Link to="/faq" className="hover:underline">FAQs</Link></li>
+                  <li><Link to="/termsandconditions" className="hover:underline">Terms & Conditions</Link></li>
                   <li><Link to="/contact" className="hover:underline">Contact</Link></li>
                 </ul>
               </div>

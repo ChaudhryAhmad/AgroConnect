@@ -9,6 +9,7 @@ function Hero() {
         src={Image}
         alt="Hero Background"
         className="w-full h-full object-cover -z-10"
+        loading='lazy'
       />
 
       {/* Overlay Text */}
