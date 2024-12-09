@@ -1,7 +1,7 @@
 import React from 'react';
 import SignupForm from '../../Components/Forms/SignupForm';
-import LoginRegisterNavlink from "../../Components/SubComponents/Login/LoginRegisterNavLink";
-import Image from "../../Components/SubComponents/Login/Image";
+import Image from "../../Components/Common/Image";
+import Button from '../../Components/Common/Button';
 
 function Signup() {
   return (
@@ -16,7 +16,7 @@ function Signup() {
         <h2 className="text-white text-l">Welcome to <span className="font-agbluma">AgroConnect</span></h2>
       </div>
       <div>
-     <LoginRegisterNavlink/>
+     <Button variant="navlink"/>
      </div>
       {/* Login Form */}
       <div className="mb-4 w-full bg-[#0A690E] p-8">

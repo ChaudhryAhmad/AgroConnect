@@ -1,14 +1,14 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import AppLayout from "./Layouts/AppLayout"
-import Home from "./Pages/General/Home"
-import AboutUs from "./Pages/General/AboutUs"
-import ContactUs from "./Pages/General/ContactUs"
-import Faq from "./Pages/General/Faq"
-import Login from "./Pages/General/Login"
-import PasswordRecovery from "./Pages/General/PasswordRecovery"
-import PrivacyPolicy from "./Pages/General/PrivacyPolicy"
-import Signup from "./Pages/General/Signup"
-import TermsAndConditions from "./Pages/General/TermsAndConditions"
+import Home from "./Pages/Landing/Home"
+import AboutUs from "./Pages/Landing/AboutUs"
+import ContactUs from "./Pages/Landing/ContactUs"
+import Faq from "./Pages/Landing/Faq"
+import Login from "./Pages/Landing/Login"
+import PasswordRecovery from "./Pages/Landing/PasswordRecovery"
+import PrivacyPolicy from "./Pages/Landing/PrivacyPolicy"
+import Signup from "./Pages/Landing/Signup"
+import TermsAndConditions from "./Pages/Landing/TermsAndConditions"
 
 const router=createBrowserRouter([
   {

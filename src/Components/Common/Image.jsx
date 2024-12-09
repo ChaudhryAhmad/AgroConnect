@@ -1,6 +1,6 @@
 import React from 'react';
-import pic1 from "../../../assets/pic1.png";
-import Vector from "../../../assets/Vector.png";
+import pic1 from "../../assets/LoginSignupPic.png"
+import Vector from "../../assets/Icon.png";
 
 function Image() {
   return (

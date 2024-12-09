@@ -1,14 +1,14 @@
 import React from 'react';
-import Image from "../../../assets/Image.png";
+import Image from "../../assets/HomePage.png";
 
 function Hero() {
   return (
-    <div className="relative w-full h-screen">
+    <div className="relative w-full h-screen z-10">
       {/* Background Image */}
-      <img 
-        src={Image} 
-        alt="Hero Background" 
-        className="w-full h-full object-cover" 
+      <img
+        src={Image}
+        alt="Hero Background"
+        className="w-full h-full object-cover -z-10"
       />
 
       {/* Overlay Text */}
@@ -17,7 +17,7 @@ function Hero() {
         <p className="text-sm md:text-lg font-normal text-white rounded-full border p-1 w-36 md:w-44 text-center">
           Believe in Quality
         </p>
-        
+
         {/* Quality Trust Heading */}
         <p className="text-3xl md:text-5xl lg:text-6xl font-bold text-white">
           Quality Trust:

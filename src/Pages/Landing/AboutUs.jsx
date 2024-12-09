@@ -1,6 +1,6 @@
 import React from 'react';
-import Hero from '../../Components/SubComponents/AboutCompnents/Hero';
-import TeamMember from '../../Components/SubComponents/AboutCompnents/TeamMember';
+import Hero from '../../Components/Common/Hero'
+import TeamMember from '../../Components/AboutCompnents/TeamMember';
 
 function About() {
   const team = [

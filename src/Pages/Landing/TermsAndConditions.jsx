@@ -1,5 +1,5 @@
-import Hero from "../../Components/SubComponents/AboutCompnents/Hero";
-import Terms from "../../Components/SubComponents/TermsAndSection/Terms";
+import Hero from "../../Components/Common/Hero";
+import Terms from "../../Components/TermsAndSection/Terms"
 
 function TermsAndConditions() {
   return (

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Button from "../SubComponents/Login/Button"
+import Button from "../../Components/Common/Button"
 
 function LoginForm() {
   const [formData, setFormData] = useState({
@@ -97,7 +97,7 @@ function LoginForm() {
 
       {/* Submit Button */}
       <div className="flex justify-end">
-        <Button className="bg-yellow-400">Login</Button>
+        <Button variant="button" className="bg-yellow-400">Login</Button>
       </div>
 
       {/* Sign Up Link */}
